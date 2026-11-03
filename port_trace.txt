@@ -1,0 +1,1138 @@
+
+16:34:56: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+C:\Program Files (x86)\Qualcomm\QPST\bin\fh_loader.exe --port=\\.\COM8 --sendxml=rawprogram_unsparse.xml --search_path=D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=emmc 
+************************************************
+
+16:34:56: DEBUG: Binary build date: Jun 25 2019 @ 03:16:10
+
+16:34:56: DEBUG: Build Version: 19.06.25.03.16.10
+
+16:34:56: INFO: Current working dir (cwd): C:\Users\SF\AppData\Roaming\Qualcomm\QFIL\COMPORT_8\
+16:34:56: INFO: Showing network mappings to allow debugging
+16:34:56: DEBUG: New connections will be remembered.
+
+16:34:56: DEBUG: 
+
+16:34:56: DEBUG: There are no entries in the list.
+
+16:34:56: DEBUG: 
+
+16:34:56: INFO: 
+
+
+
+16:34:56: INFO: Trying to store 'rawprogram_unsparse.xml' in string table
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'rawprogram_unsparse.xml'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rawprogram_unsparse.xml')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rawprogram_unsparse.xml') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rawprogram_unsparse.xml' (39872 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rawprogram_unsparse.xml') with AccessMode='r'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: User set ZLPAWAREHOST to 1
+
+16:34:56: INFO: User wants to talk to port '\\.\COM8'
+16:34:56: DEBUG: port_fd=0x128
+
+16:34:56: INFO: Took       0.00000000 seconds to open port
+16:34:56: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'xbl_636.elf'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf' (2873617 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'xbl_636.elf'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf' (2873617 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\xbl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'pmic_636.elf'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf' (39688 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'pmic_636.elf'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf' (39688 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\pmic_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'rpm_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn' (224840 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'rpm_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn' (224840 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\rpm_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'tz_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn' (1957888 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'tz_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn' (1957888 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\tz_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'devcfg_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn' (49068 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'devcfg_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn' (49068 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\devcfg_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'hyp_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn' (266240 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'hyp_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn' (266240 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\hyp_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'cmnlib_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn' (218088 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'cmnlib_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn' (218088 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'cmnlib64_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn' (265912 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'cmnlib64_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn' (265912 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cmnlib64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'keymaster64_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn' (311784 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'keymaster64_636.mbn'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn' (311784 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\keymaster64_636.mbn') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'ddr_zero.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ddr_zero.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ddr_zero.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ddr_zero.img' (1048576 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ddr_zero.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'abl_636.elf'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf' (143360 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'abl_636.elf'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf' (143360 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\abl_636.elf') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'ZE620KL_sec_without_SN.DAT'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ZE620KL_sec_without_SN.DAT')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ZE620KL_sec_without_SN.DAT') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ZE620KL_sec_without_SN.DAT' (416 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ZE620KL_sec_without_SN.DAT') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'fs_image.tar.gz.mbn.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img' (113448 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'fs_image.tar.gz.mbn.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img' (113448 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\fs_image.tar.gz.mbn.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'cookie_untar.bin'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cookie_untar.bin')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cookie_untar.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cookie_untar.bin' (16 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cookie_untar.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'factory_20M.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\factory_20M.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\factory_20M.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\factory_20M.img' (20971520 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\factory_20M.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'logfs_ufs_8mb.bin'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\logfs_ufs_8mb.bin')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\logfs_ufs_8mb.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\logfs_ufs_8mb.bin' (16384 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\logfs_ufs_8mb.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'BTFM.bin'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin' (536576 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'persist_1.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\persist_1.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\persist_1.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\persist_1.img' (4841472 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\persist_1.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'BTFM.bin'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin' (536576 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\BTFM.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'asdf_128M.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asdf_128M.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asdf_128M.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asdf_128M.img' (134217728 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asdf_128M.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'dspso_636.bin'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\dspso_636.bin')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\dspso_636.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\dspso_636.bin' (16777216 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\dspso_636.bin') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'ftm.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ftm.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ftm.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ftm.img' (17904882 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ftm.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'recovery.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\recovery.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\recovery.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\recovery.img' (21443830 bytes)
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\recovery.img') with AccessMode='rb'
+16:34:56: DEBUG: Trying get filesize, calling fseek()
+16:34:56: DEBUG: ==================================================================================
+16:34:56: DEBUG: ==================================================================================
+16:34:56: INFO: Looking for file 'ADF.img'
+16:34:56: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ADF.img')
+16:34:56: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ADF.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ADF.img' (33554432 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\ADF.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'cache_1.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cache_1.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cache_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cache_1.img' (6348800 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\cache_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'APD.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\APD.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\APD.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\APD.img' (209715200 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\APD.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'boot.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\boot.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\boot.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\boot.img' (17904882 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\boot.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'asusfw.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asusfw.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asusfw.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asusfw.img' (67108864 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\asusfw.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_1.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_1.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_1.img' (134225920 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_2.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_2.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_2.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_2.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_2.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_3.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_3.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_3.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_3.img' (131198976 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_3.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_4.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_4.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_4.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_4.img' (372736 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_4.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_5.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_5.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_5.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_5.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_5.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_6.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_6.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_6.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_6.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_6.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_7.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_7.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_7.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_7.img' (131198976 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_7.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_8.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_8.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_8.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_8.img' (118784 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_8.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_9.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_9.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_9.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_9.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_9.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_10.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_10.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_10.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_10.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_10.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_11.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_11.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_11.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_11.img' (131198976 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_11.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_12.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_12.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_12.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_12.img' (132120576 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_12.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_13.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_13.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_13.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_13.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_13.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_14.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_14.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_14.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_14.img' (131198976 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_14.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_15.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_15.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_15.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_15.img' (96452608 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_15.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_16.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_16.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_16.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_16.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_16.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_17.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_17.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_17.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_17.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_17.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_18.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_18.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_18.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_18.img' (131198976 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_18.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_19.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_19.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_19.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_19.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_19.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_20.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_20.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_20.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_20.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_20.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_21.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_21.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_21.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_21.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_21.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_22.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_22.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_22.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_22.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_22.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_23.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_23.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_23.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_23.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_23.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_24.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_24.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_24.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_24.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_24.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_25.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_25.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_25.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_25.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_25.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_26.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_26.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_26.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_26.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_26.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_27.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_27.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_27.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_27.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_27.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_28.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_28.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_28.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_28.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_28.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_29.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_29.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_29.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_29.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_29.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_30.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_30.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_30.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_30.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_30.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_31.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_31.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_31.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_31.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_31.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_32.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_32.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_32.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_32.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_32.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_33.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_33.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_33.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_33.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_33.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_34.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_34.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_34.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_34.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_34.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_35.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_35.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_35.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_35.img' (131198976 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_35.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_36.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_36.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_36.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_36.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_36.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_37.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_37.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_37.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_37.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_37.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'system_38.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_38.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_38.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_38.img' (131190784 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\system_38.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_1.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_1.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_1.img' (134225920 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_2.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_2.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_2.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_2.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_2.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_3.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_3.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_3.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_3.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_3.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_4.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_4.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_4.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_4.img' (132120576 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_4.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_5.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_5.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_5.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_5.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_5.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_6.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_6.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_6.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_6.img' (131854336 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_6.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_7.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_7.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_7.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_7.img' (52269056 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_7.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_8.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_8.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_8.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_8.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_8.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_9.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_9.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_9.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_9.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_9.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_10.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_10.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_10.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_10.img' (131854336 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_10.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_11.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_11.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_11.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_11.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_11.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_12.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_12.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_12.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_12.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_12.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'vendor_13.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_13.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_13.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_13.img' (131846144 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\vendor_13.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'NON-HLOS_636.bin'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\NON-HLOS_636.bin')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\NON-HLOS_636.bin') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\NON-HLOS_636.bin' (106287104 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\NON-HLOS_636.bin') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_1.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_1.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_1.img' (36200448 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_1.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_2.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_2.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_2.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_2.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_2.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_3.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_3.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_3.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_3.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_3.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_4.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_4.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_4.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_4.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_4.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_5.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_5.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_5.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_5.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_5.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_6.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_6.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_6.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_6.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_6.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_7.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_7.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_7.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_7.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_7.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_8.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_8.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_8.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_8.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_8.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_9.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_9.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_9.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_9.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_9.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_10.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_10.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_10.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_10.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_10.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_11.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_11.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_11.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_11.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_11.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_12.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_12.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_12.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_12.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_12.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_13.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_13.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_13.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_13.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_13.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_14.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_14.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_14.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_14.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_14.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_15.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_15.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_15.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_15.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_15.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_16.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_16.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_16.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_16.img' (8192 bytes)
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_16.img') with AccessMode='rb'
+16:34:57: DEBUG: Trying get filesize, calling fseek()
+16:34:57: DEBUG: ==================================================================================
+16:34:57: DEBUG: ==================================================================================
+16:34:57: INFO: Looking for file 'userdata_17.img'
+16:34:57: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_17.img')
+16:34:57: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_17.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_17.img' (8192 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_17.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: ==================================================================================
+16:34:58: DEBUG: ==================================================================================
+16:34:58: INFO: Looking for file 'userdata_18.img'
+16:34:58: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_18.img')
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_18.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_18.img' (8192 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_18.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: ==================================================================================
+16:34:58: DEBUG: ==================================================================================
+16:34:58: INFO: Looking for file 'userdata_19.img'
+16:34:58: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_19.img')
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_19.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_19.img' (8192 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_19.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: ==================================================================================
+16:34:58: DEBUG: ==================================================================================
+16:34:58: INFO: Looking for file 'userdata_20.img'
+16:34:58: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_20.img')
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_20.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_20.img' (8192 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_20.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: ==================================================================================
+16:34:58: DEBUG: ==================================================================================
+16:34:58: INFO: Looking for file 'userdata_21.img'
+16:34:58: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_21.img')
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_21.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_21.img' (8192 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\userdata_21.img') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: ==================================================================================
+16:34:58: DEBUG: ==================================================================================
+16:34:58: INFO: Looking for file 'gpt_main0.bin'
+16:34:58: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_main0.bin')
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_main0.bin') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_main0.bin' (17408 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_main0.bin') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: ==================================================================================
+16:34:58: DEBUG: ==================================================================================
+16:34:58: INFO: Looking for file 'gpt_backup0.bin'
+16:34:58: DEBUG: 1. Calling stat('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_backup0.bin')
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_backup0.bin') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: DEBUG: Found 'D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_backup0.bin' (16896 bytes)
+16:34:58: DEBUG: 2. Calling fopen('D:\download\Compressed\[ahmadservicecenter.com]FUSE_ze620kl_QFIL_15.0501.1711.58_M1.2.2.P8-131774152923678240_2\OUT\gpt_backup0.bin') with AccessMode='rb'
+16:34:58: DEBUG: Trying get filesize, calling fseek()
+16:34:58: INFO: 
+
+Total to be tansferd with <program> or <read> is 2.52 GB
+
+
+16:34:58: INFO: Sending <configure>
+16:34:58: DEBUG: CHANNEL DATA (P0000) (H00202) (    228 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="emmc" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="0" />
+</data>
+
+============================================================================================================
+
+16:34:58: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+16:34:58: DEBUG: CHANNEL DATA (64 bytes) <-- TARGET to HOST
+16:34:58: DEBUG: CharsInBuffer = 64
+16:34:58: DEBUG: printBuffer:6017 PRETTYPRINT Buffer is 64 bytes
+
+16:34:58: DEBUG: printBuffer:6094 01 00 00 00 30 00 00 00 02 00 00 00 01 00 00 00 ....0...........
+16:34:58: DEBUG: printBuffer:6094 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+16:34:58: DEBUG: printBuffer:6094 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+16:34:58: DEBUG: printBuffer:6094 04 00 00 00 10 00 00 00 0D 00 00 00 01 00 00 00 ................
+16:34:58: DEBUG: printBuffer:6107 
+
+
+
+
+	 _____                    
+	|  ___|                   
+	| |__ _ __ _ __ ___  _ __ 
+	|  __| '__| '__/ _ \| '__|
+	| |__| |  | | | (_) | |   
+	\____/_|  |_|  \___/|_|  
+
+
+16:34:58: {ERROR: DetermineTag:6861 XML not formed correctly. Expected a &lt; character at loc 0
+
+
+	 _____                    
+	|  ___|                   
+	| |__ _ __ _ __ ___  _ __ 
+	|  __| '__| '__/ _ \| '__|
+	| |__| |  | | | (_) | |   
+	\____/_|  |_|  \___/|_|  
+
+
+16:34:58: {ERROR: GetNextPacket:7935 3. TAG not found or recognized
+
+
+	 _____                    
+	|  ___|                   
+	| |__ _ __ _ __ ___  _ __ 
+	|  __| '__| '__/ _ \| '__|
+	| |__| |  | | | (_) | |   
+	\____/_|  |_|  \___/|_|  
+
+
+16:34:58: {ERROR: GetNextPacket:7945 
+
+	There is a chance your target is in SAHARA mode!!
+	There is a chance your target is in SAHARA mode!!
+	There is a chance your target is in SAHARA mode!!
+
+This can mean
+	1. You forgot to send DeviceProgrammer first (i.e. QSaharaServer.exe -s 13:prog_emmc_firehose_8994_lite.mbn)
+	2. OR, you did send DeviceProgrammer, but it has crashed and/or is not correct for this target
+
+Regardless this program speaks FIREHOSE protocol and your target is speaking SAHARA protcol, so this will not work
+
